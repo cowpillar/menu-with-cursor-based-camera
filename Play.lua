@@ -16,9 +16,9 @@ script.Parent.MouseButton1Click:Connect(function()
 	local menuCamera = player:FindFirstChild("PlayerGui") and player.PlayerGui:FindFirstChild("MenuCamera")
 	if menuCamera then menuCamera.Enabled = false end
 
-	-- Remove CameraPart
-	local cameraPart = workspace:FindFirstChild("CameraPart")
-	if cameraPart then cameraPart:Destroy() end
+	-- Remove camPart
+	local camPart = workspace:FindFirstChild("CameraPart")
+	if camPart then camPart:Destroy() end
 
 	-- Reset camera back to player
 	local humanoid = character and character:FindFirstChild("Humanoid")

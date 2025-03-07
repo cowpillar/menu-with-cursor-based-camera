@@ -1,4 +1,3 @@
---// Variables
 local player = game.Players.LocalPlayer
 local cam = workspace.CurrentCamera
 local mouse = player:GetMouse()
